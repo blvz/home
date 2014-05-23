@@ -1,0 +1,37 @@
+'editor':
+  'fontSize': 14
+  'fontFamily': 'Inconsolata'
+'core':
+  'themes': [
+    'neutron-ui'
+    'cowabunga'
+  ]
+  'disabledPackages': [
+    'welcome'
+    'markdown-preview'
+    'feedback'
+    'dev-live-reload'
+    'deprecation-cop'
+    'background-tips'
+    'autosave'
+    'highlight-column'
+    'autocomplete-plus'
+  ]
+  'useReactEditor': true
+'exception-reporting':
+  'userId': '1fe9c2b9-189e-14ca-4cce-a8a2c832e097'
+'release-notes':
+  'viewedVersion': '0.95.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '654f14eda9eb43b27335c81c64fb90cd8f971a26'
+'tree-view': {}
+'git-diff':
+  'showIconsInEditorGutter': true
+'autocomplete': {}
+'highlight-column':
+  'opacity': 0.15
+  'enableHighlight': false
+'autocomplete-plus':
+  'includeCompletionsFromAllBuffers': true
