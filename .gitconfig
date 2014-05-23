@@ -1,0 +1,12 @@
+[user]
+	name = Rafael Belvederese
+	email = rafael@blvz.im
+[core]
+	quotepath = false
+	excludesfile = /Users/blvdr/.gitignore
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
