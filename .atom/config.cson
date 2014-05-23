@@ -17,7 +17,6 @@
     'highlight-column'
     'autocomplete-plus'
   ]
-  'useReactEditor': true
 'exception-reporting':
   'userId': '1fe9c2b9-189e-14ca-4cce-a8a2c832e097'
 'release-notes':
@@ -29,7 +28,8 @@
 'tree-view': {}
 'git-diff':
   'showIconsInEditorGutter': true
-'autocomplete': {}
+'autocomplete':
+  'includeCompletionsFromAllBuffers': true
 'highlight-column':
   'opacity': 0.15
   'enableHighlight': false

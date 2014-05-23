@@ -17,16 +17,12 @@
 #   'ctrl-p': 'core:move-down'
 #
 
+'body':
+  'ctrl-right': 'window:focus-next-pane'
+  'ctrl-left': 'window:focus-previous-pane'
+
 '.editor':
-  'ctrl-`': 'autocomplete:activate'
-  # 'ctrl-`': 'autocomplete-plus:activate'
-
-'.autocomplete-plus input.hidden-input':
-  'ctrl-`': 'autocomplete:cancel'
-  # 'ctrl-`': 'autocomplete-plus:cancel'
-
-'.autocomplete-plus input.hidden-input':
-  'enter': 'autocomplete-plus:confirm'
+  'cmd-\'': 'autocomplete:toggle'
 
 '.editor:not(.mini)':
   'cmd-shift-h': 'highlight-column:toggle'
