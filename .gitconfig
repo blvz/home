@@ -4,6 +4,7 @@
 [core]
 	quotepath = false
 	excludesfile = /Users/blvdr/.gitignore
+	editor = nano
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool]
