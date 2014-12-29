@@ -1,38 +1,36 @@
-/*
- * Your Stylesheet
- *
- * This stylesheet is loaded when Atom starts up and is reloaded automatically
- * when it is changed.
- *
- * If you are unfamiliar with LESS, you can read more about it here:
- * http://www.lesscss.org
- */
-
-.tree-view {
-
+.tab-bar .tab .close-icon:hover {
+  color: #0ff !important;
 }
 
-.editor {
+.editor .gutter.git-diff-icon .line-number {
+  &::before {
+    content: '' !important;
+  }
 
+  border-left: 1px solid transparent;
+  &.git-line-added {
+    opacity: 1;
+    color: #a8ff60;
+    background-color: rgba(60, 90, 0, 0.19);
+    border-color: #a8ff60;
+  }
+
+  &.git-line-modified {
+    opacity: 1;
+    color: #e9c062;
+    background-color: rgba(137, 73, 0, 0.17);
+    border-color: #e9c062;
+  }
+
+  &.git-line-removed {
+    opacity: 1;
+    color: #ff3072;
+    background-color: rgba(255, 48, 117, 0.1);
+    border-color: #ff3072;
+  }
 }
 
-.editor .cursor {
-  color: #fff;
-}
-
-.filetype-color-coffee,
-.filetype-color-ls {
-  color: #00beb8;
-}
-
-.filetype-color-sass,
-.filetype-color-css,
-.filetype-color-styl {
-  color: #c26ead;
-}
-
-.filetype-color-html,
-.filetype-color-slim,
-.filetype-color-jade {
-  color: #b7c800;
+.editor .cursors .cursor {
+  border-width: 2px;
+  -webkit-transition: opacity .2s ease-in-out;
 }

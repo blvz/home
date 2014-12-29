@@ -1,37 +1,73 @@
-'editor':
-  'fontSize': 14
-  'fontFamily': 'Inconsolata'
-'core':
-  'themes': [
-    'neutron-ui'
-    'cowabunga'
-  ]
-  'disabledPackages': [
-    'welcome'
-    'markdown-preview'
-    'feedback'
-    'dev-live-reload'
-    'deprecation-cop'
-    'background-tips'
-    'autosave'
-    'highlight-column'
-    'autocomplete-plus'
-  ]
-'exception-reporting':
-  'userId': '1fe9c2b9-189e-14ca-4cce-a8a2c832e097'
-'release-notes':
-  'viewedVersion': '0.95.0'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': '654f14eda9eb43b27335c81c64fb90cd8f971a26'
-'tree-view': {}
-'git-diff':
-  'showIconsInEditorGutter': true
-'autocomplete':
-  'includeCompletionsFromAllBuffers': true
-'highlight-column':
-  'opacity': 0.15
-  'enableHighlight': false
-'autocomplete-plus':
-  'includeCompletionsFromAllBuffers': true
+'global':
+  'editor':
+    'fontFamily': 'Inconsolata'
+    'softWrap': true
+    'fontSize': 14
+    'autoIndentOnPaste': false
+    'invisibles': {}
+  'core':
+    'themes': [
+      'neutron-ui'
+      'cowabunga'
+    ]
+    'disabledPackages': [
+      'feedback'
+      'deprecation-cop'
+      'background-tips'
+      'easy-motion'
+      'ruby-bundler'
+      'refactor'
+      'coffee-refactor'
+      'copy-as-rtf'
+      'cucumber'
+      'cucumber-runner'
+      'cucumber-step'
+      'project-colorize'
+      'scope-inspector'
+      'crosshairs'
+      'autocomplete-plus'
+      'key-peek'
+      'live-archive'
+      'ti-alloy-related'
+      'linter'
+      'inline-autocomplete'
+    ]
+    'useReactEditor': true
+    'projectHome': '/Users/blvdr/Workspace'
+  'exception-reporting':
+    'userId': '1fe9c2b9-189e-14ca-4cce-a8a2c832e097'
+  'release-notes':
+    'viewedVersion': '0.95.0'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': '654f14eda9eb43b27335c81c64fb90cd8f971a26'
+  'tree-view':
+    'hideIgnoredNames': true
+  'git-diff':
+    'showIconsInEditorGutter': true
+  'autocomplete':
+    'includeCompletionsFromAllBuffers': true
+  'highlight-column':
+    'opacity': 0.15
+    'enableHighlight': false
+  'autocomplete-plus':
+    'includeCompletionsFromAllBuffers': true
+    'autoActivationDelay': 500
+  'preview':
+    '_analyticsUserId': '40115f8e-f2d7-4eca-9fee-93485dbec27a'
+    'refreshDebouncePeriod': 500
+  'jumpy':
+    'highContrast': true
+  'travis-ci-status':
+    'personalAccessToken': 'R6d9HbzbbCVsXZb6zVMC'
+  'selection-count':
+    'showOnTheLeft': true
+    'displayedText': 'asdf'
+  'scope-inspector':
+    'userId': '654f14eda9eb43b27335c81c64fb90cd8f971a26'
+  'inline-autocomplete':
+    'includeCompletionsFromAllBuffers': true
+    'includeGrammarKeywords': true
+'.preview':
+  'editor': {}
