@@ -1,0 +1,31 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"Case Conversion",
+		"Code Preview",
+		"CSS3_Syntax",
+		"Cucumber",
+		"GitGutter",
+		"Indent XML",
+		"IndentGuides",
+		"Jade",
+		"Javascript Beautify",
+		"LiveScript",
+		"Markdown Preview",
+		"MoveText",
+		"Package Control",
+		"Predawn",
+		"Ruby Slim",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeREPL",
+		"Switch View in Group",
+		"Theme - Soda",
+		"Theme - Spacegray"
+	],
+	"repositories":
+	[
+		"https://github.com/i-akhmadullin/Sublime-CSS3"
+	]
+}

@@ -1,0 +1,14 @@
+[
+  { "keys": ["super+'"], "command": "auto_complete" },
+
+  { "keys": ["ctrl+left"], "command": "prev_group" },
+  { "keys": ["ctrl+right"], "command": "next_group" },
+
+  { "keys": ["super+shift+["], "command": "prev_view_in_group" },
+  { "keys": ["super+shift+]"], "command": "next_view_in_group" },
+
+  {"keys": [ "alt+up" ], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
+  {"keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward":  true}},
+  {"keys": [ "shift+alt+up" ], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true}},
+  {"keys": ["shift+alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward":  true, "extend": true}}
+]
